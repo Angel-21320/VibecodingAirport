@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNumeroVuelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de vuelo" />
+
+    <EditText
+        android:id="@+id/etAerolinea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Aerolínea" />
+
+    <EditText
+        android:id="@+id/etDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destino" />
+
+    <EditText
+        android:id="@+id/etHoraSalida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora de salida" />
+
+</LinearLayout>
+

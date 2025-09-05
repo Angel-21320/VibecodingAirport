@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/etPasaporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pasaporte" />
+
+    <EditText
+        android:id="@+id/etNacionalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nacionalidad" />
+
+    <Button
+        android:id="@+id/btnHuella"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capturar huella (simulada)" />
+
+</LinearLayout>
+
